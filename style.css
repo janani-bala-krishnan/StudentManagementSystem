@@ -1,0 +1,79 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #f5f5f5;
+ }
+
+ /* Main Layout */
+ main {
+     display: flex;
+     min-height: 100vh;
+ }
+
+ /* Sidebar */
+ .sidebar {
+     width: 250px;
+     background-color: #212529;
+     color: white;
+     padding: 20px;
+ }
+
+ .sidebar h2 {
+     margin-bottom: 20px;
+ }
+
+ .sidebar button {
+     width: 100%;
+     padding: 10px;
+     border: none;
+     background-color: #0d6efd;
+     color: white;
+     border-radius: 5px;
+     font-size: 16px;
+ }
+
+ .sidebar button:hover {
+     background-color: #0b5ed7;
+ }
+
+ /* Content Area */
+ .content {
+     flex: 1;
+     padding: 30px;
+ }
+
+ table {
+     width: 100%;
+     background-color: white;
+     border-collapse: collapse;
+ }
+
+ th,
+ td {
+     border: 1px solid #ccc;
+     padding: 12px;
+     text-align: center;
+ }
+
+ th {
+     background-color: #0d6efd;
+     color: white;
+ }
+
+ .action-icons i {
+     margin: 0 8px;
+     cursor: pointer;
+     font-size: 18px;
+ }
+
+ .bi-pencil-fill {
+     color: green;
+ }
+
+ .bi-trash-fill {
+     color: red;
+ }

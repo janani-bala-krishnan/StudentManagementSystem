@@ -8,45 +8,104 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
+    <link rel=" stylesheet" href=" style.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-secondary">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary px-3">
+
         <img src="https://vincelogodesign.com/wp-content/uploads/2024/04/176006980_17269202-6d4c-40d3-af61-69745a70a272-scaled.jpg"
-            width="50" alt="">
+            width="50" alt="logo">
+
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">StudentManagementSystem</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+            <a class="navbar-brand ms-2" href="#">
+                StudentManagementSystem
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
                 <div class="navbar-nav">
-
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <!-- <a class="nav-link active" href="#">Home</a>
                     <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Service</a>
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-
+                    <a class="nav-link" href="#">Service</a> -->
                 </div>
 
             </div>
-            <i class="bi bi-person-circle"></i>
+
+            <i class="bi bi-person-circle fs-3"></i>
+
         </div>
-
-
-
-
     </nav>
+
+    <!-- Main Section -->
     <main>
+
+        <!-- Sidebar -->
         <div class="sidebar">
-            <h5>STUDENTS</h5>
+            <h2>STUDENTS</h2>
+
+            <button>
+                <i class="bi bi-plus-circle"></i>
+                ADD
+            </button>
         </div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <table>
+
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Phone</th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <td>Shiva</td>
+                    <td>20</td>
+                    <td>9876543210</td>
+                    <td class="action-icons">
+                        <i class="bi bi-pencil-fill"></i>
+                        <i class="bi bi-trash-fill"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Arun</td>
+                    <td>20</td>
+                    <td>543216789</td>
+                    <td class="action-icons">
+                        <i class="bi bi-pencil-fill"></i>
+                        <i class="bi bi-trash-fill"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Kutty</td>
+                    <td>21</td>
+                    <td>1234567890</td>
+                    <td class="action-icons">
+                        <i class="bi bi-pencil-fill"></i>
+                        <i class="bi bi-trash-fill"></i>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
     </main>
 
-
-    </nav>
+</body>
 
 </html>
